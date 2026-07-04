@@ -132,17 +132,3 @@ Building these methods from scratch gave me a much deeper understanding of JavaS
 Every method revealed new details about how arrays, prototypes, callbacks, and edge cases work internally.
 
 This project was one of the most valuable hands-on exercises in my JavaScript learning journey.
-
----
-
-## 👨‍💻 Author
-
-**Erik Piliposyan**
-
-🎓 Computer Science Student
-
-💻 JavaScript Enthusiast
-
-🚀 Always learning how things work under the hood
-
-⭐ If you found this project interesting, feel free to explore the code and leave a star!
