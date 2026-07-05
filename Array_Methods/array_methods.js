@@ -288,3 +288,17 @@ Array.prototype.mySplice = function(start, deleteCount, ...items) {
     this.length = size + diff;
     return rmArray;
 };
+
+Array.prototype.myFlat = function(depth = 1) {
+    let rez = [];
+
+    for(let i = 0; i < this.length; ++i) {
+        if(Array.isArray(this[i]) && depth > 0) {
+            rez.push(...this[i].myFlat(depth - 1));
+        } else {
+            rez.push(this[i]);
+        }
+    }
+
+    return rez;
+};
